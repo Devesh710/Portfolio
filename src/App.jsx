@@ -5,6 +5,7 @@ import Navbar from './sections/Navbar';
 import HeroSection from './sections/HeroSection';
 import AboutSection from './sections/AboutSection';
 import ProjectsSection from './sections/ProjectsSection';
+import CertificatesSection from './sections/certificates';
 import ContactSection from './sections/ContactSection';
 // import AdminLogin from './admin/AdminLogin';
 // import AdminDashboard from './admin/AdminDashboard';
@@ -129,6 +130,7 @@ export default function App() {
         <HeroSection />
         <AboutSection skills={skills} />
         <ProjectsSection projects={projects} />
+        <CertificatesSection />
         <ContactSection />
       </div>
     ),
