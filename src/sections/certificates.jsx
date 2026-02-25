@@ -9,13 +9,15 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
+const baseUrl = import.meta.env.BASE_URL || "/";
+
 const certificates = [
   {
     id: 1,
     title: "Advanced React Patterns",
     // issuer: "Coursera",
     // date: "Jan 2024",
-    image: "/public/images/certification/communication-skills.jpg",
+    image: `${baseUrl}images/certification/communication-skills.jpg`,
     // credentialLink: "https://example.com/credential/1",
   },
   {
@@ -23,7 +25,7 @@ const certificates = [
     title: "Full-Stack Web Development",
     // issuer: "Udemy",
     // date: "Feb 2024",
-    image: "/public/images/certification/computer-basics.jpg",
+    image: `${baseUrl}images/certification/computer-basics.jpg`,
     // credentialLink: "https://example.com/credential/2",
   },
   {
@@ -31,7 +33,7 @@ const certificates = [
     title: "UI/UX Design Fundamentals",
     // issuer: "Google",
     // date: "Mar 2024",
-    image: "/public/images/certification/computer-network-basics.jpg",
+    image: `${baseUrl}images/certification/computer-network-basics.jpg`,
     // credentialLink: "https://example.com/credential/3",
   },
   {
@@ -39,7 +41,7 @@ const certificates = [
     title: "JavaScript Mastery",
     // issuer: "Frontend Masters",
     // date: "Apr 2024",
-    image: "/public/images/certification/computing-from-past-to-present.jpg",
+    image: `${baseUrl}images/certification/computing-from-past-to-present.jpg`,
     // credentialLink: "https://example.com/credential/4",
   },
   {
@@ -47,7 +49,7 @@ const certificates = [
     title: "TypeScript in Depth",
     // issuer: "Pluralsight",
     // date: "May 2024",
-    image: "/public/images/certification/information-technology-fundamentals.jpg",
+    image: `${baseUrl}images/certification/information-technology-fundamentals.jpg`,
     //credentialLink: "https://example.com/credential/5",
   },
   {
@@ -55,7 +57,7 @@ const certificates = [
     title: "React Performance Optimization",
     // issuer: "Udacity",
     // date: "Jun 2024",
-    image: "/public/images/certification/professional-skills.jpg",
+    image: `${baseUrl}images/certification/professional-skills.jpg`,
     // credentialLink: "https://example.com/credential/6",
   },
   {
@@ -63,7 +65,7 @@ const certificates = [
     title: "Next.js for Production",
     // issuer: "Vercel",
     // date: "Jul 2024",
-    image: "/public/images/certification/security-basics.jpg",
+    image: `${baseUrl}images/certification/security-basics.jpg`,
     // credentialLink: "https://example.com/credential/7",
   },
   {
@@ -71,7 +73,7 @@ const certificates = [
     title: "Advanced CSS & Animations",
     // issuer: "freeCodeCamp",
     // date: "Aug 2024",
-    image: "/public/images/certification/support-a-customer.jpg",
+    image: `${baseUrl}images/certification/support-a-customer.jpg`,
     // credentialLink: "https://example.com/credential/8",
   },
   {
@@ -79,7 +81,7 @@ const certificates = [
     title: "Web Accessibility",
     // issuer: "edX",
     // date: "Sep 2024",
-    image: "/public/images/certification/support-basics.jpg",
+    image: `${baseUrl}images/certification/support-basics.jpg`,
     // credentialLink: "https://example.com/credential/9",
   },
   {
@@ -87,7 +89,7 @@ const certificates = [
     title: "Design Systems",
     issuer: "LinkedIn Learning",
     // date: "Oct 2024",
-    image: "/public/images/certification/troubleshooting-for-hardware.jpg",
+    image: `${baseUrl}images/certification/troubleshooting-for-hardware.jpg`,
     // credentialLink: "https://example.com/credential/10",
   },
   {
@@ -95,7 +97,7 @@ const certificates = [
     title: "Framer Motion Animations",
     // issuer: "Scrimba",
     // date: "Nov 2024",
-    image: "/public/images/certification/you-future-in-it-support.jpg",
+    image: `${baseUrl}images/certification/you-future-in-it-support.jpg`,
     // credentialLink: "https://example.com/credential/11",
   },
 //   {
