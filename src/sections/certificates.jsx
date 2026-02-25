@@ -15,7 +15,7 @@ const certificates = [
     title: "Advanced React Patterns",
     // issuer: "Coursera",
     // date: "Jan 2024",
-    image: "/public/images/certification/Communication Skills.jpg",
+    image: "/public/images/certification/Communication%20Skills.jpg",
     // credentialLink: "https://example.com/credential/1",
   },
   {
@@ -23,7 +23,7 @@ const certificates = [
     title: "Full-Stack Web Development",
     // issuer: "Udemy",
     // date: "Feb 2024",
-    image: "/public/images/certification/Computer Basics.jpg",
+    image: "/public/images/certification/Computer%20Basics.jpg",
     // credentialLink: "https://example.com/credential/2",
   },
   {
@@ -31,7 +31,7 @@ const certificates = [
     title: "UI/UX Design Fundamentals",
     // issuer: "Google",
     // date: "Mar 2024",
-    image: "/public/images/certification/Computer Network Basics.jpg",
+    image: "/public/images/certification/Computer%20Network%20Basics.jpg",
     // credentialLink: "https://example.com/credential/3",
   },
   {
@@ -39,7 +39,7 @@ const certificates = [
     title: "JavaScript Mastery",
     // issuer: "Frontend Masters",
     // date: "Apr 2024",
-    image: "/public/images/certification/Computing from Past to Present.jpg",
+    image: "/public/images/certification/Computing%20from%20Past%20to%20Present.jpg",
     // credentialLink: "https://example.com/credential/4",
   },
   {
@@ -47,7 +47,7 @@ const certificates = [
     title: "TypeScript in Depth",
     // issuer: "Pluralsight",
     // date: "May 2024",
-    image: "/public/images/certification/Information Technology Fundamentals.jpg",
+    image: "/public/images/certification/Information%20Technology%20Fundamentals.jpg",
     //credentialLink: "https://example.com/credential/5",
   },
   {
@@ -55,7 +55,7 @@ const certificates = [
     title: "React Performance Optimization",
     // issuer: "Udacity",
     // date: "Jun 2024",
-    image: "/public/images/certification/Professional Skills.jpg",
+    image: "/public/images/certification/Professional%20Skills.jpg",
     // credentialLink: "https://example.com/credential/6",
   },
   {
@@ -63,7 +63,7 @@ const certificates = [
     title: "Next.js for Production",
     // issuer: "Vercel",
     // date: "Jul 2024",
-    image: "/public/images/certification/Security Basics.jpg",
+    image: "/public/images/certification/Security%20Basics.jpg",
     // credentialLink: "https://example.com/credential/7",
   },
   {
@@ -71,7 +71,7 @@ const certificates = [
     title: "Advanced CSS & Animations",
     // issuer: "freeCodeCamp",
     // date: "Aug 2024",
-    image: "/public/images/certification/Support a Customer.jpg",
+    image: "/public/images/certification/Support%20a%20Customer.jpg",
     // credentialLink: "https://example.com/credential/8",
   },
   {
@@ -79,7 +79,7 @@ const certificates = [
     title: "Web Accessibility",
     // issuer: "edX",
     // date: "Sep 2024",
-    image: "/public/images/certification/Support Basics.jpg",
+    image: "/public/images/certification/Support%20Basics.jpg",
     // credentialLink: "https://example.com/credential/9",
   },
   {
@@ -87,7 +87,7 @@ const certificates = [
     title: "Design Systems",
     issuer: "LinkedIn Learning",
     // date: "Oct 2024",
-    image: "/public/images/certification/TroubleShooting for Hardware.jpg",
+    image: "/public/images/certification/TroubleShooting%20for%20Hardware.jpg",
     // credentialLink: "https://example.com/credential/10",
   },
   {
@@ -95,7 +95,7 @@ const certificates = [
     title: "Framer Motion Animations",
     // issuer: "Scrimba",
     // date: "Nov 2024",
-    image: "/public/images/certification/You Future in IT Support.jpg",
+    image: "/public/images/certification/You%20Future%20in%20IT%20Support.jpg",
     // credentialLink: "https://example.com/credential/11",
   },
 //   {
