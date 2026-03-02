@@ -14,107 +14,99 @@ const baseUrl = import.meta.env.BASE_URL || "/";
 const certificates = [
   {
     id: 1,
-    title: "Advanced React Patterns",
-    // issuer: "Coursera",
-    // date: "Jan 2024",
+    title: "Communication Skills",
+    issuer: "IBM SkillsBuild",
+    date: "11 March 2024",
     image: `${baseUrl}images/certification/communication-skills.jpg`,
-    // credentialLink: "https://example.com/credential/1",
+    credentialLink: "https://skills.yourlearning.ibm.com/activity/ILB-EKRGXPZQVNYJ29BZ",
   },
   {
     id: 2,
-    title: "Full-Stack Web Development",
-    // issuer: "Udemy",
-    // date: "Feb 2024",
+    title: "Computer Basics",
+    issuer: "Udemy",
+    date: "16 March 2024",
     image: `${baseUrl}images/certification/computer-basics.jpg`,
-    // credentialLink: "https://example.com/credential/2",
+    credentialLink: "https://skills.yourlearning.ibm.com/activity/MDL-235",
   },
   {
     id: 3,
-    title: "UI/UX Design Fundamentals",
-    // issuer: "Google",
-    // date: "Mar 2024",
+    title: "Computer Network Basics: How Computers Communicate",
+    issuer: "Google",
+    date: "17 March 2024",
     image: `${baseUrl}images/certification/computer-network-basics.jpg`,
-    // credentialLink: "https://example.com/credential/3",
+    credentialLink: "https://skills.yourlearning.ibm.com/activity/ALM-COURSE_4058930",
   },
   {
     id: 4,
-    title: "JavaScript Mastery",
-    // issuer: "Frontend Masters",
-    // date: "Apr 2024",
+    title: "Computing: From Past to Present",
+    issuer: "Frontend Masters",
+    date: "17 March 2024",
     image: `${baseUrl}images/certification/computing-from-past-to-present.jpg`,
-    // credentialLink: "https://example.com/credential/4",
+    credentialLink: "https://skills.yourlearning.ibm.com/activity/ALM-COURSE_4058931",
   },
   {
     id: 5,
-    title: "TypeScript in Depth",
-    // issuer: "Pluralsight",
-    // date: "May 2024",
+    title: "Information Technology Fundamentals",
+    issuer: "Pluralsight",
+    date: "18 March 2024",
     image: `${baseUrl}images/certification/information-technology-fundamentals.jpg`,
-    //credentialLink: "https://example.com/credential/5",
+    credentialLink: "https://skills.yourlearning.ibm.com/activity/PLAN-3E2A749669E2",
   },
   {
     id: 6,
-    title: "React Performance Optimization",
-    // issuer: "Udacity",
-    // date: "Jun 2024",
+    title: "Professional Skills",
+    issuer: "IBM SkillsBuild",
+    date: "13 March 2024",
     image: `${baseUrl}images/certification/professional-skills.jpg`,
-    // credentialLink: "https://example.com/credential/6",
+    credentialLink: "https://skills.yourlearning.ibm.com/activity/PLAN-C4FCC67D3E76",
   },
   {
     id: 7,
-    title: "Next.js for Production",
-    // issuer: "Vercel",
-    // date: "Jul 2024",
+    title: "Security Basics",
+    issuer: "IBM SkillsBuild",
+    date: "17 March 2024",
     image: `${baseUrl}images/certification/security-basics.jpg`,
-    // credentialLink: "https://example.com/credential/7",
+    credentialLink: "https://skills.yourlearning.ibm.com/activity/ALM-COURSE_4058932",
   },
   {
     id: 8,
-    title: "Advanced CSS & Animations",
-    // issuer: "freeCodeCamp",
-    // date: "Aug 2024",
+    title: "Support a Customer with Network Issues",
+    issuer: "IBM SkillsBuild",
+    date: "17 March 2024",
     image: `${baseUrl}images/certification/support-a-customer.jpg`,
-    // credentialLink: "https://example.com/credential/8",
+    credentialLink: "https://skills.yourlearning.ibm.com/activity/ALM-COURSE_4058935",
   },
   {
     id: 9,
-    title: "Web Accessibility",
-    // issuer: "edX",
-    // date: "Sep 2024",
+    title: "Support Basics",
+    issuer: "IBM SkillsBuild",
+    date: "17 March 2024",
     image: `${baseUrl}images/certification/support-basics.jpg`,
-    // credentialLink: "https://example.com/credential/9",
+    credentialLink: "https://skills.yourlearning.ibm.com/activity/ALM-COURSE_4058933",
   },
   {
     id: 10,
-    title: "Design Systems",
-    issuer: "LinkedIn Learning",
-    // date: "Oct 2024",
+    title: "Troubleshooting for Hardware, Networks, and Software",
+    issuer: "IBM SkillsBuild",
+    date: "17 March 2024",
     image: `${baseUrl}images/certification/troubleshooting-for-hardware.jpg`,
-    // credentialLink: "https://example.com/credential/10",
+    credentialLink: "https://skills.yourlearning.ibm.com/activity/MDL-240",
   },
   {
     id: 11,
-    title: "Framer Motion Animations",
-    // issuer: "Scrimba",
-    // date: "Nov 2024",
+    title: "Your Future in IT Support: The Job Landscape",
+    issuer: "IBM SkillsBuild",
+    date: "17 March 2024",
     image: `${baseUrl}images/certification/you-future-in-it-support.jpg`,
-    // credentialLink: "https://example.com/credential/11",
+    credentialLink: "https://skills.yourlearning.ibm.com/activity/ALM-COURSE_4058936",
   },
 //   {
 //     id: 12,
-//     title: "Responsive Web Design",
-//     issuer: "freeCodeCamp",
-//     date: "Dec 2024",
-//     image: "https://via.placeholder.com/600x400?text=Certificate+12",
-//     credentialLink: "https://example.com/credential/12",
-//   },
-//   {
-//     id: 13,
-//     title: "Advanced UI Engineering",
-//     issuer: "Coursera",
-//     date: "Jan 2025",
-//     image: "https://via.placeholder.com/600x400?text=Certificate+13",
-//     credentialLink: "https://example.com/credential/13",
+//     title: "",
+//     issuer: "",
+//     date: "",
+//     image: "",
+//     credentialLink: "",
 //   },
 ];
 
@@ -183,19 +175,19 @@ const Certificates = () => {
                     />
                   </div>
                   <div className="p-5 flex flex-col gap-2">
-                    {/* <h3 className="text-lg font-semibold text-white">
+                    <h3 className="text-lg font-semibold text-white">
                       {cert.title}
                     </h3>
                     <p className="text-sm text-gray-400">{cert.issuer}</p>
-                    <p className="text-xs text-gray-500">{cert.date}</p> */}
-                    {/* <a
+                    <p className="text-xs text-gray-500">{cert.date}</p>
+                    <a
                       href={cert.credentialLink}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="mt-4 inline-flex items-center justify-center rounded-lg px-4 py-2 text-sm font-medium text-white bg-white/10 border border-white/10 transition-all duration-300 hover:bg-white/20 hover:shadow-[0_0_20px_rgba(255,255,255,0.25)]"
                     >
                       View Credential
-                    </a> */}
+                    </a>
                   </div>
                 </div>
               </SwiperSlide>
