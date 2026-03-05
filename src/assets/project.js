@@ -10,8 +10,17 @@ const projectsData = [
     github: "",
     Download: ""
   },
-    {
+ {
     id: 2,
+    title: "Restaurant Order Management Backend",
+    desc: "This project is a production-style backend system built to simulate real restaurant operations. The system allows managers to manage menu items while enabling waiters to create and track customer orders through REST APIs.",
+    tech: ["Html", "Css", "JavaScript", "Java", "MongoDB"],
+    image: "/images/projects images/Restaurant_Order_Management-JAVA.jpeg",
+    live: "",
+    github: ""
+  },
+    {
+    id: 3,
     title: "Nots-App AI-Powered Note-Taking App",
     desc: "A clean, minimal, and intelligent note-taking application built with Flutter and Material Design 3. This app goes beyond basic note-taking by integrating Google’s Gemini AI to help users generate and refine their thoughts instantly.",
     tech: ["Flutter"],
@@ -20,7 +29,7 @@ const projectsData = [
     github: ""
   },
     {
-    id: 3,
+    id: 4,
     title: "Happy Medical Health & Beauty",
     desc: "This Flutter app allows users to add and manage entries in a sequential order within selected batches",
     tech: ["Flutter"],
@@ -34,7 +43,7 @@ const projectsData = [
     Download: "https://drive.google.com/file/d/1KfVgN46QW1jrBCaAgJRQpznHFJSepNLc/view?usp=sharing"
   },
   {
-    id: 4,
+    id: 5,
     title: "Number Conversion",
     desc: "This is a Number Conversion Web page that converts between binary and decimal numbers.",
     tech: ["HTML", "CSS", "JavaScript"],
@@ -43,7 +52,7 @@ const projectsData = [
     github: "https://github.com/Devesh710/NumberConversion"
   },
   {
-    id: 5,
+    id: 6,
     title: "EnDeCrypt",
     desc: "This project is a simple web-based text encryption and decryption tool using JavaScript.",
     tech: ["HTML", "CSS", "JavaScript"],
@@ -52,7 +61,7 @@ const projectsData = [
     github: "https://github.com/Devesh710/EnDeCrypt"
   },
   {
-    id: 6,
+    id: 7,
     title: "FORKS DELIGHTS",
     desc: "A premium restaurant website offering online table booking and signature dishes.",
     tech: ["HTML", "CSS", "JavaScript"],
@@ -61,7 +70,7 @@ const projectsData = [
     github: "https://github.com/Devesh710/ForkDelights"
   },
   {
-    id: 7,
+    id: 8,
     title: "Fruit Collector Game",
     desc: "Players gather ripe mangoes from a lush orchard while avoiding misses.",
     tech: ["HTML", "CSS", "JavaScript"],
