@@ -16,8 +16,8 @@ const projectsData = [
     desc: "This project is a production-style backend system built to simulate real restaurant operations. The system allows managers to manage menu items while enabling waiters to create and track customer orders through REST APIs.",
     tech: ["Html", "Css", "JavaScript", "Java", "MongoDB"],
     image: "/images/projects images/Restaurant_Order_Management-JAVA.jpeg",
-    live: "",
-    github: ""
+    live: "https://www.linkedin.com/posts/devesh-patel-53744b31a_restaurant-order-management-backend-spring-ugcPost-7435364008150466560-0OOo?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFDeITsBggRPwlmVlkUsGgILpfNThG1G_tQ",
+    github: "https://github.com/Devesh710/Restaurant_Order_Management-Backend"
   },
     {
     id: 3,
@@ -75,7 +75,7 @@ const projectsData = [
     desc: "Players gather ripe mangoes from a lush orchard while avoiding misses.",
     tech: ["HTML", "CSS", "JavaScript"],
     image: "/images/projects images/Fruit-game.png",
-    live: "Service Unavailable",
+    live: "https://github.com/Devesh710/Dev/tree/main/FruitCollectorGame-main/FruitCollectorGame-main",
     github: "https://github.com/Devesh710/Dev/tree/main/FruitCollectorGame-main/FruitCollectorGame-main"
   }
 ];
